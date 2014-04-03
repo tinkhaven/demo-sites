@@ -133,6 +133,7 @@ $(function(){
 	
 	/* Fullscreen Gallery - Supports only 1 per page
 	-------------------------------------------------*/
+    /*
 	// Store image data
 	var images = [];
 	var fullScreenIndex = 0;
@@ -229,7 +230,8 @@ $(function(){
 			});
 		}
 	});
-	
+	*/
+    
 	/* Navigation Scrollspy
 	--------------------------*/
 	var navSpeed = parseInt($("#header .navigation").attr("rel"));

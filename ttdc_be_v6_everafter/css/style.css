@@ -1249,6 +1249,17 @@ form input.submit:hover {
 	transform:rotate(-9deg);
 }
 
+/* Layout 12 - Default2 
+-----------------------------*/
+.slide.layout-default2 {
+	padding-top:150px;
+}
+
+.slide.layout-default2 .content {
+	margin:0 auto;
+	width:945px;
+}
+
 /* Footer
 --------------------------------- */
 #footer {
