@@ -1,0 +1,20 @@
+/*
+ * Ever After Theme - Custom Stylesheet
+ * Version: 1.0.0
+ *
+ * Author: Chris Rivers
+ * xxcriversxx@gmail.com
+ *
+ * Changelog: 
+ * Version: 1.0.0
+ * This is a custom stylesheet you may use in order to customize your site. 
+ * Please prefix your selectors with .custom in order to override the default css rules.
+ * See the example below...
+ *
+ */
+
+/* ADD RULES BELOW 
+------------------------*/
+body.custom {
+	
+}
