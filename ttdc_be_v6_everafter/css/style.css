@@ -63,6 +63,10 @@ p {
 	margin-bottom: 10px;
 }
 
+li {
+	font-family:'OswaldLight', arial, serif;
+}
+
 .modern p {
 	color:#3C3A3A;
 }
@@ -359,7 +363,7 @@ a img {
 	background:#fff;
 	background-size: auto auto;
 	height:auto;
-	padding-bottom:265px;
+	padding-bottom:100px;
 }
 
 .modern .slide.services-layout {
@@ -1259,6 +1263,17 @@ form input.submit:hover {
 	margin:0 auto;
 	width:945px;
 }
+
+.slide.layout-default2 p {
+    padding-left:0px;
+    text-align:left;
+}
+
+.slide.layout-default2 li {
+    margin-bottom: 5px;
+}
+
+
 
 /* Footer
 --------------------------------- */
