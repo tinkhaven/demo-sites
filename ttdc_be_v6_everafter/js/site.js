@@ -60,6 +60,7 @@ $(function(){
 
 		// Start Instagram only when in view
 		// if( isScrolledIntoView($(".instagram-layout .content")) ){
+            /*
 			if( startedInstagram == 0 ){
 				// Instagram Theatre
 				$('.instagram-theatre').instagramTheatre({
@@ -70,9 +71,11 @@ $(function(){
 				
 				startedInstagram = 1;
 			}
+            */
 		// }
 		
 		// Services Visible
+        /*
 		if(  isScrolledIntoView(".slide.services-layout .section-callouts") ){
 			if( startedServices == 0 ){
 				$(".slide.services-layout .section-callouts div").each(function(i,e){
@@ -84,8 +87,10 @@ $(function(){
 				startedServices = 1;
 			}
 		}
+        */
 		
 		// Our Story Visible
+        /*
 		if(  isScrolledIntoView(".slide.story-layout .section-callouts") ){
 			if( startedOurStory == 0 ){
 				$(".slide.story-layout .section-callouts .bio").each(function(i,e){
@@ -97,6 +102,7 @@ $(function(){
 				startedOurStory = 1;
 			}
 		}
+        */
 		
 		// Closing Slide Visible
 		if(  isScrolledIntoView(".slide.layout-animation .content") ){
