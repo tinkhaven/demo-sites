@@ -75,8 +75,8 @@ $(function(){
 		// }
 		
 		// Services Visible
-        /*
-		if(  isScrolledIntoView(".slide.services-layout .section-callouts") ){
+		//if(  isScrolledIntoView(".slide.services-layout .section-callouts") ){
+		if(  isScrolledIntoView(".slide.services-layout .section-header") ){
 			if( startedServices == 0 ){
 				$(".slide.services-layout .section-callouts div").each(function(i,e){
 					$(this).delay(i*400).animate({
@@ -87,7 +87,6 @@ $(function(){
 				startedServices = 1;
 			}
 		}
-        */
 		
 		// Our Story Visible
         /*
