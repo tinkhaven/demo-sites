@@ -105,12 +105,14 @@ $(function(){
         */
 		
 		// Closing Slide Visible
+        /*
 		if(  isScrolledIntoView(".slide.layout-animation .content") ){
 			if( startedClosing == 0 ){
 				closingInterval = setInterval(animateFloral, 1000 / 15);
 				startedClosing = 1;
 			}
 		}
+        */
 		
 		// Finale Slide Visible
 		if(  $(".slide.layout-scroller").hasClass("inview") ){
