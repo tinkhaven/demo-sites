@@ -19,7 +19,30 @@
       //$("body").queryLoader2();
   //});
 
-</script>
+  $(window).load(function() {    
+
+  	var theWindow        = $(window),
+  	    $bg              = $("#bg"),
+  	    aspectRatio      = $bg.width() / $bg.height();
+	    			    		
+  	function resizeBg() {
+		
+  		if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+  		    $bg
+  		    	.removeClass()
+  		    	.addClass('bgheight');
+  		} else {
+  		    $bg
+  		    	.removeClass()
+  		    	.addClass('bgwidth');
+  		}
+					
+  	}
+	                   			
+  	theWindow.resize(resizeBg).trigger("resize");
+
+  });
+  </script>
 
 <link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
 <link href="js/fancybox2/source/jquery.fancybox.css" rel="stylesheet" />
@@ -90,7 +113,7 @@
 			</div>
 
 			<div class="slide-photo">
-				<img alt="" src="css/images/slide-1.jpg" />
+				<img alt="" src="css/images/slide-1.jpg" id="bg" />
 				<!-- <img alt="" src="css/images/slide-1-snow.png" /> -->
 				<!-- <img alt="" src="css/images/slide-1.png" /> -->
 			</div>
